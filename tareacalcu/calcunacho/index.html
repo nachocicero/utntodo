@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+<script src="javascript.js"></script>
+     
+    <title>CALCUNACHO</title>
+     
+</head>
+<body>
+    <h1>Calculadora</h1> <!-- Titulo -->
+<div class="grid">
+    <div class="grid">
+            <input class="op" type="number" name="num1" id="num1" placeholder="Escriba el primer número">
+            
+            <select class="op" name="op" id="op">
+                <option class="op" value="suma" id="suma">Sumar</option>
+                <option class="op" value="rest" id="rest">Restar</option>
+                <option class="op" value="mult" id="mult">Multiplicar</option>
+                <option class="op" value="divi" id="divi">Dividir</option>
+            </select>
+
+            <input class="op" type="number" name="num2" id="num2" placeholder="Escriba el segundo número">
+            
+            <button class="op" type="button" name="calcular" id="calcular" onclick="init()">Calcular</button>
+    </div>
+</div>
+
+<br><br>
+<div class="grid">
+    <h2>Resultado :  </h2>
+    <p id="resultado"></p>
+</div>
+
+
+</body>
+</html>
